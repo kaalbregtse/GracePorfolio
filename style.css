@@ -1,0 +1,139 @@
+* {
+    font-family: "Quicksand", sans-serif;
+}
+
+:root {
+    --primary-color: #72AFFF;
+    --secondary-color: #F1ABF0;
+}
+
+
+
+@media screen and (max-width: 449px) {
+
+    body {
+        margin: 0;
+    }
+
+    /* Nav */
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    nav h2 {
+        font-size: 30px;
+        color: var(--secondary-color);
+    }
+
+    nav i {
+        color: var(--secondary-color);
+    }
+
+    /* Hero Banner */
+
+    .hero_container {
+        background: rgb(114,175,255);
+        background: linear-gradient(180deg, rgba(114,175,255,1) 70%, rgba(255,255,255,1) 100%);
+    }
+
+    .hero_content {
+        padding: 100px 20px 150px 20px;
+        margin-bottom: 30px;
+    }
+
+    .hero_content p {
+        font-size: 24px;
+        margin: 5px 0;
+        padding: 0;
+        color: white;
+    }
+
+    .hero_content p b {
+        color: var(--secondary-color);
+    }
+
+    .hero_content h2 {
+        font-weight: bold;
+        font-size: 60px;
+        color: white;
+        margin: 0;
+    }
+
+    .hero_content h2 i {
+        color: var(--secondary-color);
+    }
+
+    /* About Me */
+    .about_me_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .about_me_container h2 {
+        color: var(--secondary-color);
+        font-size: 24px;
+    }
+
+    .about_me_container img {
+        height: 250px;
+        width: 250px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        filter: drop-shadow(1px 5px 2px);
+    }
+
+    .about_me_container p {
+        padding: 0 20px;
+        font-size: 20px;
+    }
+
+    /* Contact Me */
+    .form_container {
+        background: rgb(114,175,255);
+        background: linear-gradient(0deg, rgba(114,175,255,1) 0%, rgba(255,255,255,1) 100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form_container h2 {
+        color: var(--secondary-color);
+    }
+
+    .form_container p {
+        font-size: 20px;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .form_container a {
+        color: var(--secondary-color);
+        text-decoration: none;
+    }
+
+    .form_container .meet {
+        font-size: 20px;
+        padding: 8px 16px;
+        background-color: var(--secondary-color);
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 4px;
+        margin: 20px 0 50px 0;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width: 1023px) {
+    
+}
+
+@media screen and (min-width: 1024px) {
+
+}
